@@ -1,0 +1,54 @@
+body{
+    display:flex;
+    justify-content: center;
+    height:100vh;
+    align-items: center;
+    background-color: sandybrown;
+    font-family: cursive;   
+}
+
+.main-container{
+
+      border: solid gray;
+      background-color: lightpink;
+      width:400px;
+      padding:19px;
+      box-shadow: 0px 4px 8px rgba(0,0,0, .3);
+      border:none;
+      border-radius: 9px;
+
+}
+
+.my-text{
+     resize: none;
+     width:100%;
+     padding-bottom: 100px;
+     font-size: 19px;
+     font-family: sans-serif;
+     box-sizing:border-box;
+     border:none; 
+     text-rendering: optimizeLegibility;
+    
+}
+
+
+
+.sub-container{
+    display:flex;
+    justify-content: space-between;
+}
+
+.total-counter{
+    color:rgb(106, 103, 103);
+}
+
+.spal{
+    color:blue;
+}
+
+.spac{
+   color:rgb(199, 40, 40);
+}
+
+
+
